@@ -32,7 +32,11 @@ factor_info['x3']['dtype'] = 'cat'
 factor_info['x4']['dtype'] = 'bloc'
 
 vs = VarSelect(design_df=X, factor_info=factor_info)
+vs._plot_graph()
 
+"""
+Code below are snippets for later usage
+"""
 poly = PolynomialFeatures(2).fit(X)
 Xp = poly.fit_transform(X)
 df = pd.DataFrame(Xp)
