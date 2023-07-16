@@ -10,7 +10,7 @@ interactions and any order for continuous factors
 
 remove a categorical factor and all of its interactions
 
-Idea
+Idea:
 
 Create polynomial features (easy)
 Use the poly._powers matrix to
@@ -119,7 +119,7 @@ The code above would enable to:
    for any factor (mutually inclusive)
    
 What about the opposite ?
-Is it possible to include certin factors and their combinations?
+Is it possible to include certain factors and their combinations?
 If the function returns a view on the dataframe,
 it should be possible to do that. 
 '''
